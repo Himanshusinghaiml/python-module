@@ -18,4 +18,5 @@ len1=len(a)
 # ans=a[:len1-2]
 ans1=a[2:] # positive indexing start with 0 and negative indexing start with -1
 print(ans1)
+#namespace
  
