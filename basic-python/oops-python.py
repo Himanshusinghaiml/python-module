@@ -6,22 +6,26 @@ encapsulation
 polymorphism
 abstraction
 inheritance 
- 
-'''
-# class aiml:
-#     print("himanshu singh") # class function call 
-#     def p():
-#         print("hello")
-# a=aiml()
-a ="amazon"
-len1=len(a)
-# ans=a[:len1-2]
-ans1=a[2:] # positive indexing start with 0 and negative indexing start with -1
-print(ans1)
-#namespace
-class student:
-    def __init__(self,sum1,sum2): # this is constructor
-        total=sum1 + sum2
-        print(total )
-         
-a=student(5,5)
+ '''
+class calculator:
+    def __init__(self,num) -> None:
+        self.value=num
+    def getter(self):
+        return self.value
+    def setter(self,num):
+        if num < 0:
+            print("number less than zero its set automaticcaly 0")
+            self.value=0
+        else:
+            self.value=num
+obj1=calculator(100)
+print(obj1.getter()) # getter 
+
+obj1.setter(51)
+print(obj1.getter())
+
+obj1.setter(-7) # to set zero 
+print(obj1.getter())
+print(type(obj1))
+
+   
