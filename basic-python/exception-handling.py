@@ -1,6 +1,5 @@
 '''
 try 
-catch
-throw
-catch
+except
+finally  #it always execute whatever we define in finally 
 '''
