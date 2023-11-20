@@ -4,7 +4,7 @@ def number(num):
     while(num!=0):
         rem=num%10
         ans=ans*10+rem
-        num=num//10
+        num=num//10  # it gives integer value (floor division ) but if we use  / division operator in python then return float value in python 
     return ans
         
     
