@@ -1,3 +1,4 @@
+'''  
 # reverse a number
 def number(num):
     ans=0
@@ -20,3 +21,10 @@ pq=(2,) # tuple
 # print(pq,type(pq))
 p=[2,]
 print(p,type(p)) # it is same things in list only changing in tuple if i defned only one element ,use tailing comma
+ '''
+ 
+for i in range(1,11,1):
+    print(i)
+print() 
+for i in range(10,0,-1):
+    print(i)
