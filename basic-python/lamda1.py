@@ -1,4 +1,4 @@
-#lambda function in python
+#lambda function in python 
 x=lambda a:a+10
 print(x(5))
 y=lambda b,c:b*c
