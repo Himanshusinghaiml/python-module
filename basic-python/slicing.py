@@ -9,7 +9,7 @@ for i in a:
     print(j,i)
     j+=1
 print() # above we can directly print the string 
-print()  # below we define range and print index and character of the strings
+print()  # below we define range and printindex and character of the strings
 for i in range(len(a)):
     print(i,a[i])
     

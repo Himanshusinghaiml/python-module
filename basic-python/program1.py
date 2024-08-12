@@ -6,7 +6,7 @@ for i in range(1,11):
 i =1  
 print("this is printing using while loop ")   
 while(i<11):
-    print(i,"himanshu singh ",end=' @ ') # use in end ,to give space also print on same line
+    print(i,"himanshu singh ") # use in end ,to give space also print on same line
     # or mention any value 
     i+=1
 # Using the end parameter to print on the same line
