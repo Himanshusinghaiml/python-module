@@ -1,0 +1,77 @@
+In Python, there are several built-in functions that are commonly used with sequences (like lists, tuples, etc.) to apply operations to each element or to filter elements based on a condition. The most notable ones include map, filter, and reduce. Here's an overview of these functions:
+
+1. map
+Purpose: Applies a given function to all items in an input sequence (like a list) and returns a map object (which can be converted to a list, tuple, etc.).
+Usage:
+python
+Copy code
+numbers = [1, 2, 3, 4]
+squared = list(map(lambda x: x ** 2, numbers))
+print(squared)  # Output: [1, 4, 9, 16]
+2. filter
+Purpose: Filters elements from an input sequence based on a condition provided by a function. It returns a filter object (which can be converted to a list, tuple, etc.).
+Usage:
+python
+Copy code
+numbers = [1, 2, 3, 4, 5, 6]
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+print(even_numbers)  # Output: [2, 4, 6]
+3. reduce
+Purpose: Applies a binary function (a function that takes two arguments) cumulatively to the items of a sequence, from left to right, so as to reduce the sequence to a single value. This function is not a built-in but is available in the functools module.
+Usage:
+python
+Copy code
+from functools import reduce
+numbers = [1, 2, 3, 4]
+product = reduce(lambda x, y: x * y, numbers)
+print(product)  # Output: 24
+4. zip
+Purpose: Combines elements from multiple sequences into tuples. It returns an iterator of tuples, where the i-th tuple contains the i-th element from each of the input sequences.
+Usage:
+python
+Copy code
+numbers = [1, 2, 3]
+letters = ['a', 'b', 'c']
+zipped = list(zip(numbers, letters))
+print(zipped)  # Output: [(1, 'a'), (2, 'b'), (3, 'c')]
+5. enumerate
+Purpose: Adds a counter to an iterable and returns it in the form of an enumerate object, which yields pairs of an index and the corresponding element.
+Usage:
+python
+Copy code
+letters = ['a', 'b', 'c']
+enumerated = list(enumerate(letters))
+print(enumerated)  # Output: [(0, 'a'), (1, 'b'), (2, 'c')]
+6. any
+Purpose: Returns True if at least one element in the iterable is true; otherwise, it returns False.
+Usage:
+python
+Copy code
+numbers = [0, 1, 2, 3]
+has_positive = any(x > 0 for x in numbers)
+print(has_positive)  # Output: True
+7. all
+Purpose: Returns True if all elements in the iterable are true; otherwise, it returns False.
+Usage:
+python
+Copy code
+numbers = [1, 2, 3, 4]
+all_positive = all(x > 0 for x in numbers)
+print(all_positive)  # Output: True
+8. sorted
+Purpose: Returns a sorted list of the specified iterable's elements.
+Usage:
+python
+Copy code
+numbers = [3, 1, 4, 2]
+sorted_numbers = sorted(numbers)
+print(sorted_numbers)  # Output: [1, 2, 3, 4]
+9. reversed
+Purpose: Returns a reversed iterator over the values of the given sequence.
+Usage:
+python
+Copy code
+numbers = [1, 2, 3, 4]
+reversed_numbers = list(reversed(numbers))
+print(reversed_numbers)  # Output: [4, 3, 2, 1]
+These functions are very powerful and are often used in functional programming paradigms in Python. Each one provides a way to process sequences efficiently and concisely.
