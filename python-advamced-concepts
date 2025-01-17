@@ -1,0 +1,40 @@
+ Object-Oriented Programming (OOP) in Python
+Classes and Objects: Understand how classes work, including constructors (__init__), methods, and attributes.
+Inheritance: Learn about subclassing and overriding methods.
+Polymorphism: Understand how different classes can share the same interface and be used interchangeably.
+Encapsulation: Learn how to hide the internal state of objects using private/public methods.
+Abstraction: Using abstract base classes and interfaces.
+Multiple Inheritance: Understanding how multiple inheritance works in Python and the super() function.
+Method Resolution Order (MRO): Understand the order in which Python looks for methods in the inheritance chain.
+Dunder Methods: Learn special methods like __str__, __repr__, __eq__, __getitem__, __setattr__, etc.
+
+
+
+3. Concurrency and Parallelism
+Threading: Understand Python's threading model, how to create threads using the threading module, and when to use threads.
+Multiprocessing: Learn how to use the multiprocessing module to perform parallel tasks, avoiding the Global Interpreter Lock (GIL).
+Asyncio: Understand asynchronous programming with async/await for handling IO-bound tasks efficiently.
+Coroutines: Learn about Python’s coroutines, event loops, and the asyncio library for non-blocking I/O operations.
+Task Scheduling: Using concurrent.futures and other tools for task scheduling.
+
+
+
+4. Python Memory Management
+Memory Allocation: Understand how Python manages memory with its built-in memory allocator.
+Garbage Collection: Learn about Python's garbage collection mechanism, including reference counting and the gc module.
+Object Caching: Understand how Python handles small integers and strings, including object reuse for efficiency.
+Memory Profiler: Learn to use tools like memory_profiler, objgraph, and tracemalloc for memory usage tracking.
+
+
+. Design Patterns
+Creational Patterns: Singleton, Factory, Builder, and Prototype patterns.
+Structural Patterns: Adapter, Decorator, Facade, and Proxy patterns.
+Behavioral Patterns: Observer, Strategy, Command, and Chain of Responsibility patterns.
+Design Principles: SOLID principles, DRY (Don’t Repeat Yourself), and KISS (Keep It Simple, Stupid).
+Dependency Injection: Understanding how to decouple dependencies in an application.
+
+
+Python's Internals
+Python Interpreter: Learn how Python executes code, including the role of the CPython interpreter, the bytecode, and the Python Virtual Machine (PVM).
+Global Interpreter Lock (GIL): Understand the GIL and how it affects multithreading in CPython.
+Bytecode and Python Compilers: Explore how Python code is converted into bytecode and how to work with compile() and dis modules.
