@@ -1,0 +1,7 @@
+Summary of Key Normal Forms:
+1NF: Atomic values, no duplicates.
+2NF: Eliminate partial dependencies (only depends on full primary key).
+3NF: Eliminate transitive dependencies (depends only on the primary key).
+BCNF: Every determinant is a candidate key.
+4NF: Eliminate multi-valued dependencies.
+5NF: Eliminate join dependencies (decompose without losing information).
