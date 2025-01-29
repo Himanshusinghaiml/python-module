@@ -16,7 +16,12 @@ What it is: psycopg2 is a low-level, direct Python adapter for PostgreSQL. It al
 SQLAlchemy:- 
 What it is: SQLAlchemy is an ORM and database toolkit for Python. It provides both a high-level ORM for abstracting your database interactions and a low-level SQL expression language for finer control when needed.
 
-mongodb :  python driver to interact with database 
+mongodb : 
+ - python driver to interact with database 
 a): bunnet which is not offically supported . ODM
 b): mongongine which is officially supported . ODM 
 c): motor driver : use with sql queries 
+
+MYsql and Postgres :
+a):Sqlalchemy ORM uses interact with database
+b): for postgres uses pycopg2 for writing sql queries 
