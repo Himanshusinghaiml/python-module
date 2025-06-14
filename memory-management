@@ -1,0 +1,4 @@
+This is primarily achieved through a private heap, where all Python objects reside.
+The Python memory manager controls this heap, dynamically allocating and deallocating memory as needed.
+Private Heap:
+A dedicated memory area for Python objects, inaccessible to other processes.
