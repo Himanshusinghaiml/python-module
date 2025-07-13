@@ -1,0 +1,37 @@
+Question asked mostly by backend developer roles :- 
+1.what is jwt and how its work with frontend and backend , access token and refresh token with proper diagram + header,payload,signature
+2. What is middleware how its work, what is the use case in fastapi?
+3.what is cors? Where it defined in backend , whats the use case why occurred ?if the issue with different port or domain, so how its work in mobile apps , @Restapi, means in android app
+4. Primary key vs unique key 
+5. Decorators , generators with proper example how its work , they might be asked question based on this , understand me .
+6. What is closure ? how its work with example .
+7. What is list comprehension ?
+8. Mostly asked what is list , tuple, set, dict, string, is this inbuilt data structure ?
+9. Which is fast array or list and why ?
+10. Some exposure with AIML - like token,vector, vector database, openAI.
+11.ORM or ODM how its work ?
+12.Http methods how its work ? GET,POST,PUT,PATCH,OPTION
+13. How connect with database in python? Step by step describe in detail?
+14. What is docker ? image , container , docker engine with command how use?
+15. Suppose we create on repo want to deploy? What are the basic steps, what to do ? deploy with docker ? exposure with CI/CD Pipelines 
+16. Set vs frozen set.
+17. Deepcopy vs shallow copy with example 
+18. Fibonacci series with generators , make prime number function.
+19.  what is *args and **args with example ?
+20. Memory management in python how its work?
+21. JWT vs outh, Outh2.0?
+22. Multithreading in python
+Question asked mostly from OOPs :- 
+1. what is oops, why oops, what’s the use case ?
+2. Abstraction how its work with proper example and real time usecase?
+3. Inheritance with all types supported in python?
+4. What is static method and class method ?
+Question asked mostly from  database  :- 
+1. Transaction in database ?
+2. Primary key vs unique key ?
+3. Normalization in database with example ?
+4. Aggregation pipeline in mongodb , like $unwind, sort, limit and all the things in details 
+5. Join in mongodb ?
+6. Sql query asked basic like write a query to find second highest salary from user table or user 
+7. Modify table , means add one column more in table like middle_name 
+8.serialization vs deserialization.
